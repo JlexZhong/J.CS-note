@@ -4,7 +4,7 @@
 
 + 整理数据集（训练集、验证集），按照目录格式分类
 + 读取数据集图像，归一化处理和数据增强
-+ 加载预训练模型InceptionV3，作为基础模型
++ 加载预训练模型`InceptionV3`，作为基础模型
 + 在Inception卷积神经网络的瓶颈层后设计适用于本项目的网络结构，成为my_mode
 + 冻结预训练模型的所有层，变为不可训练，便于正确获得瓶颈层输出的特征，自己添加的层需要训练。相当于把InceptionV3变为一个特征提取器
 + 编译、训练、保存
@@ -12,9 +12,9 @@
 
 ## 数据预处理
 
-使用一个ImageDataGenerator图片生成器，定义图片处理以及数据增强相关
+使用一个`ImageDataGenerator`图片生成器，定义图片处理以及数据增强相关
 
-+ ImageDataGenerator，这个API提供数据处理相关功能，以及**数据增强功能**，使得数据多样化
++ `ImageDataGenerator`，这个API提供数据处理相关功能，以及**数据增强功能**，使得数据多样化
 
   + ```
     datagen = ImageDataGenerator(rescale=1. / 255,  # 归一化
@@ -51,7 +51,7 @@
 
     
 
-+ ImageDataGenerator.flow_from_directory() ，实现了自动给固定格式目录下的数据集打标签，分批无序读取，返回张量类型数据集。
++ `ImageDataGenerator.flow_from_directory()` ，实现了自动给固定格式目录下的数据集打标签，分批无序读取，返回张量类型数据集。
 
   + 这个API要求有严格的目录格式，如下：
 
@@ -108,11 +108,11 @@
 
 ## 构建InceptionV3模型
 
-![](.\res\Deep Learning\inceptionV3网络结构图.png)
+![](基于InceptionV3迁移学习实现岩石图像智能识别.assets/inceptionV3网络结构图.png)
 
 Bottleneck feature即为瓶颈层输出的特征，后面的层被丢弃。我们在瓶颈层后添加全连接层进行分类，输出变为符合概率分布的概率。添加的层结构如下。
 
-![](.\res\Deep Learning\自建层.png)
+![](基于InceptionV3迁移学习实现岩石图像智能识别.assets/自建层.png)
 
 设置整体卷积神经网络的输入为（150，150，3）矩阵。
 
@@ -329,11 +329,11 @@ if __name__ == '__main__':
 
 ```
 
-![](.\res\Deep Learning\预测结果.png)
+![](基于InceptionV3迁移学习实现岩石图像智能识别.assets/预测结果.png)
 
 原始图像：
 
-![](./res\Deep Learning\预测图像集.png)
+![](基于InceptionV3迁移学习实现岩石图像智能识别.assets/预测图像集.png)
 
 ## 源代码与数据集
 

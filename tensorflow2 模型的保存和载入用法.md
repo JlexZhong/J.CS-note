@@ -23,7 +23,7 @@ history_ft = model.fit_generator(
 
 ### **保存全部模型**（ckpt）：
 
-![image-20210814230542472](res/Deep Learning/all_ckpt.png)
+![image-20210814230542472](tensorflow2 模型的保存和载入用法.assets/all_ckpt.png)
 
 读取方法：
 
@@ -33,7 +33,7 @@ model = tf.keras.models.load_model('./ckpt/transfer_03-0.98.ckpt')
 
 ### 保存全部模型（h5）:
 
-![image-20210814233340073](res/Deep Learning/all_h5.png)
+![image-20210814233340073](tensorflow2 模型的保存和载入用法.assets/all_h5.png)
 
 读取方法:
 
@@ -58,7 +58,7 @@ model.load_weights(latest_model)  # 读取权重，model的结构必须与训练
 
 ### 仅保存权重（h5）
 
-![image-20210814232039366](res/Deep Learning/only_h5.png)
+![image-20210814232039366](tensorflow2 模型的保存和载入用法.assets/only_h5.png)
 
 ```python
 model.load_weights('./ckpt/transfer_18-0.97.h5')

@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
 ## 效果
 
-![](.\res\pyqt\暗黑主题 2021-08-19 113230.png)
+![](pyqt5 QSS开源暗黑主题qdarkstyle.assets/暗黑主题 2021-08-19 113230.png)
 
 ## 如何读取QSS文件作为GUI主题
 

@@ -2,7 +2,7 @@
 
 ## 效果
 
-<img src=".\res\pyqt\侧边栏2021-08-19 125724.png" style="zoom:67%;" />
+![](pyqt小记侧边栏（QListWidget+QStackedWidget）实现.assets/2021-08-19 112919.png)
 
 ## 思路
 
@@ -10,7 +10,7 @@
 - 点击listwidget的不同item，跳转到stackedwidget不同的页面。
 - 最后通过**qss美化**。
 
-![](.\res\pyqt\侧边栏结构.png)
+![](pyqt小记侧边栏（QListWidget+QStackedWidget）实现.assets/侧边栏结构.png)
 
 ## 实现
 

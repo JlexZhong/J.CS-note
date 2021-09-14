@@ -1,3 +1,23 @@
+---
+title: tensorflow.js部署到web 笔记
+date: 2021-09-02 12:00:09
+description: tensorflow.js部署到web,部署到生产环境中，我将python训练的模型进行转换，部署到博客的网页中
+tags:
+  - 深度学习
+  - tensorflow
+  - tensorflow.js
+categories: 
+  - 深度学习
+  - tensorflow
+  - tensorflow.js
+keywords:
+  - 深度学习
+  - tensorflow
+  - tensorflow.js
+---
+
+
+
 # tensorflow.js部署到web 笔记
 
 ## BUG：

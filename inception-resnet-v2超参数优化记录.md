@@ -1,3 +1,20 @@
+---
+title: inception-resnet-v2超参数优化笔记
+date: 2021-08-19 18:00:09
+description: 记录一下inception-resnet-v2超参数优化的记录，accuracy、loss、学习率、优化器
+tags:
+  - 深度学习
+  - tensorflow
+  - keras
+  - 图像分类
+categories: 图像分类
+keywords:
+  - 深度学习
+  - tensorflow
+  - keras
+  - 图像分类
+---
+
 # inception-resnet-v2优化笔记
 
 ## csdn岩石数据集

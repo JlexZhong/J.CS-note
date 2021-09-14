@@ -1,3 +1,19 @@
+---
+title: python开发中遇到的原生问题
+date: 2021-09-011 12:00:09
+update: 2021-09-13 12:00:00
+description: 记录一下在# python开发中遇到的原生问题，BUG
+tags:
+  - Python
+  - BUG
+categories: 
+  - Python
+  - BUG
+keywords:
+  - Python
+  - BUG
+---
+
 # python开发中遇到的原生问题
 
 

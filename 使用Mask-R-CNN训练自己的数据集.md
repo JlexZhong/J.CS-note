@@ -1,3 +1,26 @@
+---
+title: 使用Mask-R-CNN训练自己的数据集
+date: 2021-09-09 12:00:09
+description: 如何使用Mask R-CNN训练自己的数据集，以及遇到的use_multiprocessing=True的BUG 
+tags:
+  - Mask R-CNN
+  - 深度学习
+  - tensorflow
+  - keras
+  - 实例分割
+categories: 
+  - Mask R-CNN
+  - tensorflow
+  - 实例分割
+keywords:
+  - Mask R-CNN
+  - 深度学习
+  - tensorflow
+  - keras
+  - 实例分割
+
+---
+
 # 使用Mask-R-CNN训练自己的数据集
 
 训练自己数据的步骤：

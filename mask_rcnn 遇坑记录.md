@@ -1,4 +1,28 @@
+---
+title: mask r-cnn 遇到的坑
+date: 2021-09-09 12:00:09
+update: 2021-09-13 12:00:00
+description: 记录一下在配置TensorFlow和训练过程中遇到的BUG
+tags:
+  - Mask R-CNN
+  - 深度学习
+  - tensorflow
+  - keras
+  - 实例分割
+categories: 
+  - Mask R-CNN
+  - tensorflow
+  - 实例分割
+keywords:
+  - Mask R-CNN
+  - 深度学习
+  - tensorflow
+  - keras
+  - 实例分割
+---
+
 # mask r-cnn 遇到的坑 记录
+
 ## BUG：module 'tensorflow.compat.v2.__internal__' has no attribute 'register_clear_session_function' 已解决
 
 更新tensorflow版本

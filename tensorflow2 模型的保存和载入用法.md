@@ -1,3 +1,20 @@
+---
+title: tensorflow2 模型的保存和载入 h5和ckpt的用法 断点续训
+date: 2021-08-15 12:00:09
+description: tensorflow2 模型的保存和载入 h5和ckpt的用法 断点续训
+tags:
+  - 深度学习
+  - tensorflow
+categories: 
+  - 深度学习
+  - tensorflow
+keywords:
+  - 深度学习
+  - tensorflow
+---
+
+
+
 # tensorflow2 模型的保存和载入 h5和ckpt的用法 | 小记
 
 ## 断点续训/检查点

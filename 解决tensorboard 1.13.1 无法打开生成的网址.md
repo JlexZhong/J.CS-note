@@ -1,3 +1,22 @@
+---
+title: 解决tensorboard 1.13.1 无法打开生成的网址
+date: 2021-09-011 22:00:09
+description: 解决tensorboard 1.13.1 无法打开生成的网址，在命令行中加上`--host=127.0.0.1`，即可完美解决
+tags:
+  - 深度学习
+  - tensorflow
+  - keras
+  - BUG
+categories: 
+  - tensorflow
+  - BUG
+keywords:
+  - 深度学习
+  - tensorflow
+  - keras
+  - BUG
+---
+
 # 解决tensorboard 1.13.1 无法打开生成的网址
 
 使用命令：

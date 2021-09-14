@@ -1,3 +1,20 @@
+---
+title: 基于InceptionV3深度学习实现岩石图像智能识别与分类
+date: 2021-09-01 18:00:09
+description: 基于InceptionV3深度卷积神经网络，迁移学习实现岩石图像智能识别与分类，迁移学习的一般步骤
+tags:
+  - 深度学习
+  - tensorflow
+  - keras
+  - 图像分类
+categories: 图像分类
+keywords:
+  - 深度学习
+  - tensorflow
+  - keras
+  - 图像分类
+---
+
 # 基于InceptionV3深度学习实现岩石图像智能识别与分类
 
 ## 总体流程
